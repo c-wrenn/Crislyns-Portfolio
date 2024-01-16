@@ -38,7 +38,7 @@ const Navigation = () => {
                   Contact
                 </NavLink>
               </li>
-              <li>
+              {/* <li>
               <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -50,7 +50,7 @@ const Navigation = () => {
               <NavDropdown.Item href="#action/3.4"></NavDropdown.Item>
               </NavDropdown>
             
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

@@ -11,7 +11,7 @@
 
 
 a {
-  font-weight: 500;
+  
   /* color: #646cff; */
   text-decoration: inherit;
 }
@@ -109,7 +109,7 @@ grid-template-rows: auto;
   text-decoration: none;
 padding-bottom: 4px;
 position: relative;
-text-decoration: none;
+
  }
  .underline::after {
     background: #FF69B4;
@@ -125,7 +125,6 @@ text-decoration: none;
   font-size: 30px;
   display: inline;
   text-decoration: none;
-padding-bottom: 4px;
-position: relative;
-text-decoration: none;
+  padding-bottom: 4px;
+  position: relative;
  }
