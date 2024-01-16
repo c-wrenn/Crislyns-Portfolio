@@ -1,0 +1,104 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: black;
+  font-family: sans-serif;
+  
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+header {
+    background-color: black;
+    padding: 1.2rem;
+  }
+
+   /* Navbar styles */
+   .navbar-title,
+   .navbar-list .nav-link {
+     color: #e020a3;
+     font-size: 1.0rem;
+     letter-spacing: 2px;
+     text-shadow: 5px 5px 10px grey;
+   }
+ 
+   .navbar-list .nav-link:hover {
+     font-size: 1.5rem;
+     letter-spacing: 2px;
+     color: #f0f2f5;
+     text-shadow: 5px 5px 10px grey;
+   }
+ 
+   .navbar-title {
+     margin-left: 10px;
+     letter-spacing: 7px;
+     font-size: 1.6rem;
+     text-shadow: 0px 0px 15px #454f61;
+     text-decoration: none;
+   }
+ 
+   .navbar-title:hover {
+     text-decoration: none;
+     color: transparent;
+     text-shadow: 0px 5px 10px #1a2f57;
+   }
+ 
+   .navbar-logo {
+     padding-top: 3px;
+     padding-bottom: 3px;
+     background-color: black;
+     justify-content: start;
+     
+   }
+ 
+   .navbar-menu {
+     background-color: black !important;
+     display: flex;
+   }
+ 
+   navigation-box {
+     margin-top: 1rem;
+     display: flex;
+     justify-content: end;
+   }
+
+   section {
+    width: 100%;
+   }
+ main {
+  background-color: black;
+ }
+ body {
+  background-color: black;
+  color: pink; 
+ }
+
+.nav-item {
+  display: inline-flex;
+  padding: 0px 5px 0px 5px;
+}
+
+ .nav-item:hover{
+  color: grey;
+  filter: drop-shadow(0 0 2em #646cffaa);
+  text-decoration: none;
+ }
+
+ .nav-link {
+  font-family: sans-serif;
+ 
+ }
+
+ .body-styles {
+  background-color: black;
+ }
+
+ /* work for projects page */
+

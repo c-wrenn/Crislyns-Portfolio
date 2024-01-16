@@ -1,0 +1,131 @@
+#root{
+  display:flex;
+  font-size: 1rem;
+  flex-direction: column;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-rendering: optimizeLegibility;
+  color: transparent;
+  background-color: black;
+
+}
+
+
+a {
+  font-weight: 500;
+  /* color: #646cff; */
+  text-decoration: inherit;
+}
+a:hover {
+  color: grey;
+}
+
+body {
+  padding: 30px 0px 10px 0px;
+  display: block;
+  min-width: 320px;
+  min-height: 100vh;
+  
+ 
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  background-color: black;
+  
+}
+
+/* @media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #F5DFBB;
+  }
+} */
+
+.navlink {
+  background-color: #1a1a1a;
+}
+
+.exp-article {
+  color: white;
+}
+
+.exp-ed-section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.badges {
+display: grid;
+grid-template:  
+"a a a" 40px
+"b c c" 40px
+"b c c" 40px / 1fr 1fr 1fr;
+grid-template-rows: auto;
+}
+
+#img {
+  padding: 15px 15px 15px 15px;
+  border: solid;
+  border-radius: 60%;
+  margin: 15px;
+}
+
+.education-container {
+  animation-duration: 3s;
+  animation-timing-function: ease-in;
+}
+ .SMU-section {
+  border: solid;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+ }
+ .TTU-section {
+  border: solid;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+ }
+ /* .exp-titles h1 {
+  display: inline-flex;
+ } */
+.exp-div {
+  display: flex;
+  justify-content: center;
+}
+.edu-div{
+  display: flex;
+  justify-content: center;
+}
+ #exp-title {
+  font-size: 30px;
+  display: inline;
+  text-decoration: none;
+padding-bottom: 4px;
+position: relative;
+text-decoration: none;
+ }
+ .underline::after {
+    background: #FF69B4;
+    background: linear-gradient(to right, transparent 0%, #FF69B4 50%, transparent 100%);  
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 100%;
+}
+ #edu-title {
+  font-size: 30px;
+  display: inline;
+  text-decoration: none;
+padding-bottom: 4px;
+position: relative;
+text-decoration: none;
+ }
